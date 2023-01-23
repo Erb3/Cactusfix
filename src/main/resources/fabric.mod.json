@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "cactusfix",
+  "version": "${version}",
+  "name": "Cactusfix",
+  "description": "Cacti is no longer stronger than lava! Cactusfix makes items not get destoryed by cacti",
+  "authors": [
+    "Erb3",
+    "Contributors"
+  ],
+  "contact": {
+    "website": "https://github.com/Erb3/Cactusfix",
+    "repo": "https://github.com/Erb3/Cactusfix.git"
+  },
+  "license": "GPL-3.0",
+  "icon": "assets/cactusfix/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "github.erb3.fabric.cactusfix.Main"
+    ]
+  },
+  "mixins": [
+    "cactusfix.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.13",
+    "fabric": "*",
+    "minecraft": "1.19.3"
+  }
+}
