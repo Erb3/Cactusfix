@@ -1,27 +1,37 @@
 # Cactusfix
 
-## THIS REPOSITORY IS NOT IN USE ANYMORE! USE [ERB3/MC-MODS](https://github.com/Erb3/mc-mods)
-
-![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Erb3/Cactusfix?style=for-the-badge)
-![Made for FabricMC](https://img.shields.io/badge/Made%20for-FabricMC-blue?style=for-the-badge)
-![Modrith versions](https://img.shields.io/modrinth/game-versions/Z29y9YGt?style=for-the-badge)
+![Modrinth versions](https://img.shields.io/modrinth/game-versions/Z29y9YGt?style=for-the-badge)
 ![Modrinth Downloads](https://img.shields.io/modrinth/dt/Z29y9YGt?style=for-the-badge)
 
-Cacti are no longer stronger than lava! Cactusfix makes items not get destroyed by cacti. It still does damage entities / players, which is intentional. Cactusfix is made for the FabricMC Minecraft modding platform.
+Cactusfix is a mod for FabricMC, which provides multiple fixes for cacti.
+
+<!-- TOC -->
+* [Cactusfix](#cactusfix)
+  * [Fixes](#fixes)
+  * [FAQ](#faq)
+<!-- TOC -->
+
+## Fixes
+
+Here is a table of all the fixes provided by Cactusfix:
+
+| Fix name                           | Fix gamerule                | Default value |
+|------------------------------------|-----------------------------|---------------|
+| If cactus should despawn items     | `shouldCactusDamageItems`   | `false`       |
+| If cactus should damage players    | `shouldCactusDamagePlayers` | `true`        |
+| If cactus should be placed weirdly | `betterCactusPlacing`       | `false`       |
+
+The fixes can be toggled with the help of `/gamerule`, if Cactusfix is installed on the server.
 
 ## FAQ
 
-**Can I use this mod in my modpack?**
+* ⛔ I do not allow reuploading of my mods
+* ✅ I allow modpacks to use my mods\*
 
-Yes! You are more than welcome to include my mod in your modpack, if you credit me properly, and make downloads go thru my modrinth page.
+**\*Can I use this mod in my modpack?**
 
-**Does this damage players?**
-
-Originally I made it so players don't take damage, but I decided to remove this for the 1.0.0 release.
-
-**This is such a easy mod to make. Why did you even bother making this?!?**
-
-I was browsing thru Modrinth looking for a new project to work on, then I relised there was no mod that simply disabled cacti stealing your items. So I made this mod in half an hour.
+Yes! You are more than welcome to include my mod in your modpack, if you credit me properly, and make downloads go through my modrinth page.
+I would also appreciate if you told me about it 😊.
 
 **Plz updat to forge**
 
@@ -30,3 +40,7 @@ I won't update to forge, as I have never touched it, and have no plan to do so.
 **Will you update this to new MC versions?**
 
 If I feel like it :)
+
+**Where can I get in touch with you?**
+
+Up-to-date contact information can be found at my [GitHub](https://github.com/Erb3/Erb3/blob/main/README.md).
