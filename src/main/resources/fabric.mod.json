@@ -15,7 +15,7 @@
     "repo": "https://github.com/Erb3/Cactusfix.git"
   },
 
-  "license": "GPL-3.0",
+  "license": "MPL-2.0",
   "icon": "assets/cactusfix/icon.png",
 
   "environment": "*",
