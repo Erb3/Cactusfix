@@ -19,7 +19,7 @@ Here is a table of all the fixes provided by Cactusfix:
 |------------------------------------|-----------------------------|---------------|
 | If cactus should despawn items     | `shouldCactusDamageItems`   | `false`       |
 | If cactus should damage players    | `shouldCactusDamagePlayers` | `true`        |
-| If cactus should be placed weirdly | `betterCactusPlacing`       | `false`       |
+| If cactus should be placed weirdly | `doBetterCactusPlacing`     | `false`       |
 
 The fixes can be toggled with the help of `/gamerule`, if Cactusfix is installed on the server.
 
