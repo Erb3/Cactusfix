@@ -7,6 +7,7 @@ import net.minecraft.block.CactusBlock;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.ItemEntity;
 import net.minecraft.entity.player.PlayerEntity;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.util.math.BlockPos;
 import net.minecraft.world.World;
 import net.minecraft.world.WorldView;
@@ -41,6 +42,6 @@ public class CactusMixin {
         }
 
         BlockState blockState2 = world.getBlockState(pos.down());
-        cir.setReturnValue((blockState2.isOf(Blocks.CACTUS) || blockState2.isOf(Blocks.SAND) || blockState2.isOf(Blocks.RED_SAND)) && !world.getBlockState(pos.up()).getMaterial().isLiquid());
+        cir.setReturnValue((blockState2.isOf(Blocks.CACTUS) || blockState2.isIn(BlockTags.SAND)));
     }
 }
