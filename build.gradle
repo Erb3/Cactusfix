@@ -3,6 +3,8 @@ plugins {
     id 'io.github.juuxel.loom-quiltflower' version '1.10.0'
 }
 
+version = "${project.mod_version}-mc${project.minecraft_version}"
+
 repositories {}
 
 dependencies {
