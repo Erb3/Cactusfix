@@ -1,7 +1,7 @@
 # Cactusfix
 
-![Modrinth versions](https://img.shields.io/modrinth/game-versions/Z29y9YGt?style=for-the-badge)
-![Modrinth Downloads](https://img.shields.io/modrinth/dt/Z29y9YGt?style=for-the-badge)
+![fabric](./assets/forge_64h.png)
+[![modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/mod/cactusfix)
 
 Cactusfix is a mod for FabricMC, which provides multiple fixes for cacti.
 
@@ -36,7 +36,7 @@ I would also appreciate if you told me about it 😊.
 
 **Plz updat to forge**
 
-I won't update to forge, as I have never touched it, and have no plan to do so.
+I won't update to forge, as I have never gotten it to work, and have no plan to do so.
 
 **Will you update this to new MC versions?**
 
