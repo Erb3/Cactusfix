@@ -51,11 +51,10 @@ Up-to-date contact information can be found at my [GitHub](https://github.com/Er
 > Note: This is how I work when I update the mod to new version. You as a player should not have to do this.
 
 1. Create new branch
-2. Update fabric.mod.json
-3. Update gradle.properties
-4. Patch for new release
-5. Commit
-6. Push & set main-branch to new
-7. Build the jar
-8. Publish to GitHub Releases
-9. Publish to Modrinth
+2. Update gradle.properties
+3. Patch for new release
+4. Commit
+5. Push & set main-branch to new
+6. Build the jar
+7. Publish to GitHub Releases
+8. Publish to Modrinth
