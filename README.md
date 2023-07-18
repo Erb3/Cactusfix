@@ -26,13 +26,15 @@ The fixes can be toggled with the help of `/gamerule`, if Cactusfix is installed
 
 ## FAQ
 
-* ⛔ I do not allow reuploading of my mods
-* ✅ I allow modpacks to use my mods\*
+**Can I use this mod in my modpack?**
 
-**\*Can I use this mod in my modpack?**
-
-Yes! You are more than welcome to include my mod in your modpack, if you credit me properly, and make downloads go through my modrinth page.
+Yes! You are more than welcome to include my mod in your modpack, if you credit me, and do not reupload the mod.
 I would also appreciate if you told me about it 😊.
+
+**Can I re-upload this mod?**
+
+Short answer: No.
+To clarify: You **may not** publish this mod's compiled jars somewhere else, and you may not pretend that you wrote the mod.
 
 **Plz updat to forge**
 
@@ -57,4 +59,3 @@ Up-to-date contact information can be found at my [GitHub](https://github.com/Er
 5. Push & set main-branch to new
 6. Build the jar
 7. Publish to GitHub Releases
-8. Publish to Modrinth
