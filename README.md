@@ -16,11 +16,11 @@ Cactusfix is a mod for FabricMC, which provides multiple fixes for cacti.
 
 Here is a table of all the fixes provided by Cactusfix:
 
-| Fix name                           | Fix gamerule                | Default value |
-|------------------------------------|-----------------------------|---------------|
-| If cactus should despawn items     | `shouldCactusDamageItems`   | `false`       |
-| If cactus should damage players    | `shouldCactusDamagePlayers` | `true`        |
-| If cactus should be placed weirdly | `doBetterCactusPlacing`     | `false`       |
+| Fix name                        | Fix gamerule                | Default value |
+|---------------------------------|-----------------------------|---------------|
+| If cactus should despawn items  | `shouldCactusDamageItems`   | `false`       |
+| If cactus should damage players | `shouldCactusDamagePlayers` | `true`        |
+| If cactus can be placed weirdly | `allowFreerCactusPlacing`  | `false`       |
 
 The fixes can be toggled with the help of `/gamerule`, if Cactusfix is installed on the server.
 

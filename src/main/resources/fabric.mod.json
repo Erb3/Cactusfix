@@ -10,7 +10,10 @@
     ],
     "contact": {
         "website": "https://github.com/Erb3/Cactusfix",
-        "repo": "https://github.com/Erb3/Cactusfix.git"
+        "repo": "https://github.com/Erb3/Cactusfix.git",
+        "homepage": "https://github.com/Erb3/Cactusfix",
+        "issues": "https://github.com/Erb3/Cactusfix",
+        "sources": "https://github.com/Erb3/Cactusfix"
     },
     "license": "MPL-2.0",
     "icon": "assets/cactusfix/icon.png",
