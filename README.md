@@ -1,6 +1,6 @@
 # Cactusfix
 
-![fabric](./assets/forge_64h.png)
+![fabric](https://github.com/Erb3/Cactusfix/blob/1.20.x/assets/forge_64h.png?raw=true)
 [![modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/mod/cactusfix)
 
 Cactusfix is a mod for FabricMC, which provides multiple fixes for cacti.
