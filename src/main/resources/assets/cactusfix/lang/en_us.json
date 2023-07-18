@@ -1,5 +1,5 @@
 {
-  "gamerule.shouldCactusDamageItems": "Cactus should despawn items",
-  "gamerule.doBetterCactusPlacing": "Cactus should have more free placing",
-  "gamerule.shouldCactusDamagePlayers": "Cactus should hurt players"
+    "gamerule.shouldCactusDamageItems": "Cactus should despawn items",
+    "gamerule.doBetterCactusPlacing": "Cactus should have more free placing",
+    "gamerule.shouldCactusDamagePlayers": "Cactus should hurt players"
 }

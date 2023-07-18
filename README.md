@@ -6,10 +6,12 @@
 Cactusfix is a mod for FabricMC, which provides multiple fixes for cacti.
 
 <!-- TOC -->
+
 * [Cactusfix](#cactusfix)
-  * [Fixes](#fixes)
-  * [FAQ](#faq)
-  * [Updating the mod](#updating-the-mod)
+    * [Fixes](#fixes)
+    * [FAQ](#faq)
+    * [Updating the mod](#updating-the-mod)
+
 <!-- TOC -->
 
 ## Fixes
@@ -34,7 +36,8 @@ I would also appreciate if you told me about it 😊.
 **Can I re-upload this mod?**
 
 Short answer: No.
-To clarify: You **may not** publish this mod's compiled jars somewhere else, and you may not pretend that you wrote the mod.
+To clarify: You **may not** publish this mod's compiled jars somewhere else, and you may not pretend that you wrote the
+mod.
 
 **Plz updat to forge**
 

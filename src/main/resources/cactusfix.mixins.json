@@ -1,14 +1,14 @@
 {
-  "required": true,
-  "minVersion": "0.8",
-  "package": "github.erb3.fabric.cactusfix.mixin",
-  "compatibilityLevel": "JAVA_17",
-  "mixins": [
-    "CactusMixin"
-  ],
-  "client": [
-  ],
-  "injectors": {
-    "defaultRequire": 1
-  }
+    "required": true,
+    "minVersion": "0.8",
+    "package": "github.erb3.fabric.cactusfix.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "CactusMixin"
+    ],
+    "client": [
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
 }

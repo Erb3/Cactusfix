@@ -35,7 +35,7 @@ public class CactusMixin {
         }
     }
 
-    @Inject(method="canPlaceAt", at = @At("HEAD"), cancellable = true)
+    @Inject(method = "canPlaceAt", at = @At("HEAD"), cancellable = true)
     public void onCanPlaceAt(BlockState state, WorldView worldView, BlockPos pos, CallbackInfoReturnable<Boolean> cir) {
         if (!(worldView instanceof World world) || !world.getGameRules().getBoolean(Main.BETTER_CACTUS_PLACING)) {
             return;
