@@ -1,9 +1,9 @@
 # Cactusfix
 
+🌵 Cactusfix is a mod for FabricMC which provides multiple fixes for cacti.
+
 ![fabric](https://github.com/Erb3/Cactusfix/blob/1.20.x/assets/forge_64h.png?raw=true)
 [![modrinth](https://cdn.jsdelivr.net/npm/@intergrav/devins-badges@3/assets/cozy/available/modrinth_vector.svg)](https://modrinth.com/mod/cactusfix)
-
-Cactusfix is a mod for FabricMC, which provides multiple fixes for cacti.
 
 <!-- TOC -->
 * [Cactusfix](#cactusfix)
@@ -20,7 +20,7 @@ Here is a table of all the fixes provided by Cactusfix:
 |---------------------------------|-----------------------------|---------------|
 | If cactus should despawn items  | `shouldCactusDamageItems`   | `false`       |
 | If cactus should damage players | `shouldCactusDamagePlayers` | `true`        |
-| If cactus can be placed weirdly | `allowFreerCactusPlacing`  | `false`       |
+| If cactus can be placed weirdly | `allowFreerCactusPlacing`   | `false`       |
 
 The fixes can be toggled with the help of `/gamerule`, if Cactusfix is installed on the server.
 

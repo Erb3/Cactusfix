@@ -3,7 +3,7 @@
     "id": "cactusfix",
     "version": "${mod_version}",
     "name": "Cactusfix",
-    "description": "Cacti is no longer stronger than lava! Cactusfix is a server-side mod to add different cactus-related patches.",
+    "description": "Cactusfix is a mod for FabricMC which provides multiple fixes for cacti.",
     "authors": [
         "Erb3",
         "Contributors"
