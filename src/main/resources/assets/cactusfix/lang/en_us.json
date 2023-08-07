@@ -1,5 +1,6 @@
 {
-    "gamerule.shouldCactusDamageItems": "Cactus should despawn items",
     "gamerule.allowFreerCactusPlacing": "Cactus should have freer placing",
-    "gamerule.shouldCactusDamagePlayers": "Cactus should hurt players"
+    "gamerule.shouldCactusDamageItems": "Cactus should despawn items",
+    "gamerule.shouldCactusDamagePlayers": "Cactus should hurt players",
+    "cactusfix.modrinth": "Modrinth page"
 }
