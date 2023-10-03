@@ -51,7 +51,9 @@ Up-to-date contact information can be found at my [GitHub](https://github.com/Er
 
 ## Updating the mod
 
-> Note: This is how I work when I update the mod to a new version. You as a player should not have to do this.
+> **Note**
+> This is how I work when I update the mod to a new version.
+> You as a player should not have to do this.
 
 1. Create new branch
 2. Update gradle.properties
