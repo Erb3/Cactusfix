@@ -29,15 +29,15 @@ public class Main implements ModInitializer {
 
     public static final GameRules.Key<GameRules.BooleanRule> ALLOW_FREER_CACTUS_PLACING =
         GameRuleRegistry.register("allowFreerCactusPlacing", GameRules.Category.MISC,
-            GameRuleFactory.createBooleanRule(false, (server, rule) -> server.getPlayerManager().getPlayerList().forEach(player -> syncFreerCacusRule(player, rule.get()))));
+            GameRuleFactory.createBooleanRule(false, (server, rule) -> server.getPlayerManager().getPlayerList().forEach(player -> syncFreerCactusRule(player, rule.get()))));
 
     @Override
     public void onInitialize() {
         LOGGER.info("Hello from Cactusfix! Lets get fixing your cactus");
-        ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> syncFreerCacusRule(handler.player, server.getGameRules().getBoolean(ALLOW_FREER_CACTUS_PLACING)));
+        ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> syncFreerCactusRule(handler.player, server.getGameRules().getBoolean(ALLOW_FREER_CACTUS_PLACING)));
     }
 
-    private static void syncFreerCacusRule(ServerPlayerEntity player, boolean value) {
+    private static void syncFreerCactusRule(ServerPlayerEntity player, boolean value) {
         final PacketByteBuf buf = PacketByteBufs.create();
         buf.writeBoolean(value);
         ServerPlayNetworking.send(player, SYNC_FREER_CACTUS_PLACING, buf);
