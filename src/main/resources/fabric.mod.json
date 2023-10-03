@@ -21,6 +21,9 @@
     "entrypoints": {
         "main": [
             "github.erb3.fabric.cactusfix.Main"
+        ],
+        "client": [
+            "github.erb3.fabric.cactusfix.Client"
         ]
     },
     "mixins": [
