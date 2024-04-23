@@ -3,10 +3,8 @@ package github.erb3.fabric.cactusfix;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.gamerule.v1.GameRuleFactory;
 import net.fabricmc.fabric.api.gamerule.v1.GameRuleRegistry;
-import net.fabricmc.fabric.api.networking.v1.PacketByteBufs;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
-import net.minecraft.network.PacketByteBuf;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.Identifier;
 import net.minecraft.world.GameRules;
@@ -38,8 +36,6 @@ public class Main implements ModInitializer {
     }
 
     private static void syncFreerCactusRule(ServerPlayerEntity player, boolean value) {
-        final PacketByteBuf buf = PacketByteBufs.create();
-        buf.writeBoolean(value);
-        ServerPlayNetworking.send(player, SYNC_FREER_CACTUS_PLACING, buf);
+        ServerPlayNetworking.send(player, new SyncPacket(value));
     }
 }

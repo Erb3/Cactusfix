@@ -2,16 +2,21 @@ package github.erb3.fabric.cactusfix;
 
 import net.fabricmc.api.ClientModInitializer;
 import net.fabricmc.fabric.api.client.networking.v1.ClientPlayNetworking;
+import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
+import net.minecraft.client.MinecraftClient;
 import net.minecraft.world.GameRules;
 
 public class Client implements ClientModInitializer {
 
     @Override
     public void onInitializeClient() {
+        PayloadTypeRegistry.playS2C().register(SyncPacket.ID, SyncPacket.PACKET_CODEC);
+
         //noinspection CodeBlock2Expr
-        ClientPlayNetworking.registerGlobalReceiver(Main.SYNC_FREER_CACTUS_PLACING, (client, handler, buf, responseSender) -> {
-            client.execute(() -> {
-                final boolean value = buf.readBoolean();
+        ClientPlayNetworking.registerGlobalReceiver(SyncPacket.ID, (payload, context) -> {
+            MinecraftClient.getInstance().execute(() -> {
+                final boolean value = payload.allowsFreer();
+                MinecraftClient client = context.client();
                 if (client.world != null) {
                     final GameRules rules = client.world.getGameRules();
 
