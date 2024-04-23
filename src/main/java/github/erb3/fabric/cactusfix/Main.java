@@ -6,7 +6,6 @@ import net.fabricmc.fabric.api.gamerule.v1.GameRuleRegistry;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.server.network.ServerPlayerEntity;
-import net.minecraft.util.Identifier;
 import net.minecraft.world.GameRules;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -15,7 +14,6 @@ public class Main implements ModInitializer {
 
     public static final String MOD_ID = "cactusfix";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
-    public static final Identifier SYNC_FREER_CACTUS_PLACING = new Identifier(MOD_ID, "sync_freer_cactus_placing");
 
     public static final GameRules.Key<GameRules.BooleanRule> SHOULD_CACTUS_DAMAGE_ITEMS =
         GameRuleRegistry.register("shouldCactusDamageItems", GameRules.Category.DROPS,
