@@ -3,6 +3,7 @@ package github.erb3.fabric.cactusfix;
 import net.fabricmc.api.ModInitializer;
 import net.fabricmc.fabric.api.gamerule.v1.GameRuleFactory;
 import net.fabricmc.fabric.api.gamerule.v1.GameRuleRegistry;
+import net.fabricmc.fabric.api.networking.v1.PayloadTypeRegistry;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayConnectionEvents;
 import net.fabricmc.fabric.api.networking.v1.ServerPlayNetworking;
 import net.minecraft.server.network.ServerPlayerEntity;
@@ -29,7 +30,8 @@ public class Main implements ModInitializer {
 
     @Override
     public void onInitialize() {
-        LOGGER.info("Hello from Cactusfix! Lets get fixing your cactus");
+        LOGGER.info("Cactusfix has awoken.");
+        PayloadTypeRegistry.playS2C().register(SyncPacket.SYNC_PACKET_ID, SyncPacket.PACKET_CODEC);
         ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> syncFreerCactusRule(handler.player, server.getGameRules().getBoolean(ALLOW_FREER_CACTUS_PLACING)));
     }
 
