@@ -14,7 +14,7 @@ public record SyncPacket(boolean allowsFreer) implements CustomPayload {
     }
 
     public static final PacketCodec<RegistryByteBuf, SyncPacket> PACKET_CODEC = PacketCodec.of(SyncPacket::write, SyncPacket::new);
-    public static final Id<SyncPacket> SYNC_PACKET_ID = CustomPayload.id("cactusfix:sync_freer_cactus_placing");
+    public static final Id<SyncPacket> SYNC_PACKET_ID = CustomPayload.id("cactusfix/sync_freer_cactus_placing");
 
     @Override
     public Id<? extends CustomPayload> getId() {
