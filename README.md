@@ -9,7 +9,6 @@
 * [Cactusfix](#cactusfix)
   * [Fixes](#fixes)
   * [FAQ](#faq)
-  * [Updating the mod](#updating-the-mod)
 <!-- TOC -->
 
 ## Fixes
@@ -48,17 +47,3 @@ If I feel like it :)
 **Where can I get in touch with you?**
 
 Up-to-date contact information can be found at my [GitHub](https://github.com/Erb3/Erb3/blob/main/README.md).
-
-## Updating the mod
-
-> [!NOTE]
-> This is how I work when I update the mod to a new version.
-> You as a player should not have to do this.
-
-1. Create new branch
-2. Update gradle.properties
-3. Patch for new release
-4. Commit
-5. Push & set main-branch to new
-6. Build the jar
-7. Publish to GitHub Releases
