@@ -11,7 +11,7 @@ import net.minecraft.world.GameRules;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-public class Main implements ModInitializer {
+public class Cactusfix implements ModInitializer {
 
     public static final String MOD_ID = "cactusfix";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
@@ -32,7 +32,9 @@ public class Main implements ModInitializer {
     public void onInitialize() {
         LOGGER.info("Cactusfix has awoken.");
         PayloadTypeRegistry.playS2C().register(SyncPacket.SYNC_PACKET_ID, SyncPacket.PACKET_CODEC);
-        ServerPlayConnectionEvents.JOIN.register((handler, sender, server) -> syncFreerCactusRule(handler.player, server.getGameRules().getBoolean(ALLOW_FREER_CACTUS_PLACING)));
+        ServerPlayConnectionEvents.JOIN.register(
+            (handler, sender, server)
+                -> syncFreerCactusRule(handler.player, server.getGameRules().getBoolean(ALLOW_FREER_CACTUS_PLACING)));
     }
 
     private static void syncFreerCactusRule(ServerPlayerEntity player, boolean value) {

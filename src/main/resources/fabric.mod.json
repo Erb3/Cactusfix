@@ -20,10 +20,10 @@
     "environment": "*",
     "entrypoints": {
         "main": [
-            "github.erb3.fabric.cactusfix.Main"
+            "github.erb3.fabric.cactusfix.Cactusfix"
         ],
         "client": [
-            "github.erb3.fabric.cactusfix.Client"
+            "github.erb3.fabric.cactusfix.CactusfixClient"
         ]
     },
     "mixins": [
